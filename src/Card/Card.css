@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #00002d;
+    color: white;
+    padding: 2%;
+    width: 100%;
+}
+
+.card-header {
+    margin-bottom: 2%;
+}
+
+.card-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-header p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 379px;
+    height: 562px;
+    border: 1px solid #E5CA3C;
+    border-radius: 10px;
+    background-color: #4a38ab;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #E5CA3C;
+    margin-bottom: 0.5rem;
+}
+
+.card-badge {
+    position: absolute;
+    top: -10px;
+    right: 138px;
+    background-color: #E5CA3C;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.card-price {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.card-subprice {
+    font-size: 0.9rem;
+    color: #94A3B8;
+}
+
+.card-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFD700;
+    color: #4a38ab;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #FFD700;
+}
+
+.card-features {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.card-features h3 {
+    font-size: 1.2rem;
+}
+
+.card-features p {
+    margin: 0.2rem 0;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-top: 4%;
+}
+
+.btn-1 {
+    width: 157px;
+    height: 42px;
+    border: 1px solid #FBBF24;
+    border-radius: 4px;
+    background: orange;
+    color: black;
+    cursor: pointer;
+}
